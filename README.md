@@ -6,8 +6,8 @@ This document describes how to install/setup Wine on Ubuntu 18.04 (Bionic) to be
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo bash
 apt-key add winehq.key
-apt-add-repository https://dl.winehq.org/wine-builds/ubuntu
-apt-add-repository ppa:cybermax-dexter/sdl2-backport
+add-apt-repository https://dl.winehq.org/wine-builds/ubuntu
+add-apt-repository ppa:cybermax-dexter/sdl2-backport
 apt update
 ```
 
